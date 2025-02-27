@@ -405,6 +405,7 @@ def data_process(setting_dict, dataset_dir, dataset_name):
         # Statistic on empty docs
         empty_doc = 0
         try:
+            print(en_model, doc)
             text_obj = InputTextObj(en_model, doc)
         except:
             empty_doc += 1
