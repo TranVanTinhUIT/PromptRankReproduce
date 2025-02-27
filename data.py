@@ -18,7 +18,7 @@ enable_filter = None
 temp_en = None
 temp_de = None
 
-StanfordCoreNLP_path = '../../stanford-corenlp-full-2018-02-27'
+StanfordCoreNLP_path = '/kaggle/input/stanford-corenlp-4-5-8/stanford-corenlp-4.5.8'
 
 stopword_dict = set(stopwords.words('english'))
 en_model = StanfordCoreNLP(StanfordCoreNLP_path, quiet=True)
